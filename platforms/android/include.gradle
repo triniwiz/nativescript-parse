@@ -1,0 +1,10 @@
+android {
+    productFlavors {
+        "nativescriptparse" {
+            dimension "nativescriptparse"
+        }
+    }
+}
+    dependencies {
+   compile 'com.parse:parse-android:1.13.1'
+}
