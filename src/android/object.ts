@@ -1,3 +1,4 @@
+declare var com: any, java: any;
 const _ParseObject = com.parse.ParseObject;
 const _DeleteCallback = com.parse.DeleteCallback;
 const _FindCallback = com.parse.FindCallback;

@@ -1,3 +1,4 @@
+declare var com: any, java: any;
 const _ParseUser = com.parse.ParseUser;
 const _LogInCallback = com.parse.LogInCallback;
 const _LogOutCallback = com.parse.LogOutCallback;
@@ -35,7 +36,7 @@ export class ParseUser {
 	fetchIfNeeded() {
 		_ParseUser.fetchIfNeeded();
 	}
-	getCurrentUser() {
+	currentUser() {
 		return _ParseUser.getCurrentUser();
 	}
 	getEmail() {
